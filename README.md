@@ -22,6 +22,7 @@
 
 ```bash
 conda create -n fad python=3.8
+conda activate fad
 conda install -c anaconda jupyter
 ```
 
