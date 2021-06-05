@@ -8,7 +8,7 @@ function createTOC() {
 	$(":header").each(function(i){
 		if (this.id=='tocheading'){return;}
 	    
-		var titleText = this.innerHTML;
+		var titleText = this.innerText;
 		var openLevel = this.tagName[1];
 
 		if (levels[openLevel]){
@@ -31,9 +31,10 @@ function createTOC() {
 		var anchor = this.id;
 	    
 		toc += '<li><a href="#' + encodeURIComponent(anchor) + '">'
-		+ levels[openLevel].toString() + '. ' + titleText
+		+ /*levels[openLevel].toString() + '. ' +*/ titleText
 		+ '</a></li>';
 	    
+	    this.innerHTML = "<a href='#toctitle'>" + titleText + "</a>";
 	});
     
 	if (level) {
