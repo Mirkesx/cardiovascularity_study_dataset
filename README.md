@@ -8,15 +8,15 @@
 
 <p>I won't go further with the explanations since I have explained more in the notebook.</p>
 
-<p>Anyway, the goal of this project is to study a dataset with the a various number of data science tools. The dataset I've picked is about cardiovascular diseases. We want to retrieve meaningful information from it and eventually be able to use this data for specific operations (such as classification, clustering, regression etc.).</p>
+<p>Anyway, the goal of this project is to study a dataset with a various number of data science tools. The dataset I've picked is about cardiovascular diseases. We want to retrieve meaningful information from it and eventually be able to use this data for specific operations (such as classification, clustering, regression etc.).</p>
 
 <p>More details about how I retrieved the data, what are the system requirements and so on will be explained in-depth in the notebook</p>
 
-## How To run
+## How to run
 
 <p>I suggest using CONDA to manage the python environments. You can easily set up a new CONDA env and delete it once you don't need it anymore.</p>
 
-<p>To install CONDA you can check the reference [1].</p>
+<p>To install CONDA you can check this <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#">website</a>.</p>
 
 <p>This is the code to run in your shell once you have Conda to create the envinroment with the needed packages to run notebooks:</p>
 
