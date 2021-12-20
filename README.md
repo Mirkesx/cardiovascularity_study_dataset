@@ -1,6 +1,6 @@
 # Cardiovascular Study Dataset
 
-<p>This repository contains the Project Notebook for Fondamenti di Analisi Dati, a Data Science subject teached at University of Catania.</p>
+<p>This repository contains the Project Notebook for Fondamenti di Analisi Dati, a Data Science subject taught at University of Catania.</p>
 
 <p>This repository has only eductional purposes, so it is freely usable (just put the link of this repository as a reference in your README file if you do).</p>
 
